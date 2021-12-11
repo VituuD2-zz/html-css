@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            text-decoration: none;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategrey;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        a{
+            color: #5448a1;
+            font-weight: bold;
+            margin-left: 3px;
+        }
+        
+        nav{
+            display: inline-block;
+            background-color: #9e9e9e;
+            padding: 5px;
+            box-shadow: 1.5px 2px 1.5px rgba(0, 0, 0, 0.486);
+            
+        }
+
+        article > aside{
+            background-color: #9e9e9e;
+            padding: 1px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px 25px;
+            box-shadow: 1.5px 2px 1.5px rgba(0, 0, 0, 0.247);
+        }
+
+        footer{
+            background-color: #483d8b;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            font-weight: bold;
+        }
+
+        footer > p{
+            margin: 0;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50px;
+            margin: 10px auto;
+            text-align: center;
+            font: bold 55pt Arial;
+            color: #483d8b;
+            box-shadow: 1.5px 3px 2px rgba(0, 0, 0, 0.479);
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esportes Tecnologia Politica
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, mollitia minus rerum magnam, cumque asperiores quod, natus dignissimos recusandae commodi quasi totam. Vel dolorem mollitia provident? Error aspernatur aliquid deleniti.</p>
+                <aside>
+                    <p>Artigo escrito por EU:)</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jv</p>
+    </footer>
+    <div id="bola">Jv</div>
+</body>
+</html>
