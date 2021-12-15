@@ -10,6 +10,12 @@
   text-decoration: none;
 }
 
+/* ADDED LATER */
+html, body{
+    min-height: 100vh;
+
+}
+
 :root{
     --fonte-title: 'Passion One', Arial;
     --fonte-letter: 'Sriracha', cursive;
@@ -38,6 +44,8 @@ h1{
 .b-letter{
     font-size: 10vw;
 }
+/* Melhor opção: font-variant: small-caps; */
+
 
 a{
     font-weight: bold;
@@ -56,12 +64,10 @@ main p{
 
 #img_1{
     background-image: url('../imagens/background001.jpg');
-    background-position: right center;
 }
 
 #img_2{
     background-image: url('../imagens/background002.jpg');
-    background-position: right center;
 }
 
 section{
@@ -78,9 +84,10 @@ section{
 
 .image{
     background-color: #000;
-    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px #00000073 ;
     background-size: cover;
-    box-shadow: inset 4px 3px 6px 2px #00000048 ;
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 .image p{
