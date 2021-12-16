@@ -7,7 +7,7 @@
     <title>Tebelas</title>
     <style>
         body{
-            font-family: Arial;
+            font-family: Verdana;
         }
         
         table{
@@ -21,8 +21,14 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(44, 44, 44);
             color: white;
+        }
+
+        caption{
+            font: bold 1.5em Arial;
+            padding: 10px;
+            background-color: #b6b6b6;
         }
 
         .num{
@@ -35,6 +41,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -43,10 +50,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -161,7 +169,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>213 317 639</strong></td>
             </tr>
         </tfoot>
